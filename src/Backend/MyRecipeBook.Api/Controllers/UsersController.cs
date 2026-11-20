@@ -11,5 +11,6 @@ public class UsersController : ControllerBase
     public IActionResult Register(RequestUserAccountJson request)
     {
         return Created();
+
     }
 }
